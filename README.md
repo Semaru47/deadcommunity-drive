@@ -1,48 +1,56 @@
 # DeadCoDrive
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Self-hosted drive / file service
+### ◆ Role
 
-Internal/self-hosted file drive for team and community operational storage needs.
+**Self-hosted drive / file service**
 
-## Live
+Internal/self-hosted file drive for team and community operational storage.
 
-_Hostname not public yet — service runs on our production host._
+### ◆ Live
 
-## What it does
+↳ _Hostname not public yet — service runs on our production host._
 
-- Self-hosted alternative to consumer cloud drives
-- Runs as a healthy long-lived container on our host
-- Fits the “own your infrastructure” DC philosophy
+### ◆ What it does
 
-## Who it’s for
+▸ Self-hosted alternative to consumer drives
+▸ Long-lived healthy container
+▸ Fits the “own your infra” DC model
 
-Team / ops file sharing
+### ◆ Highlights
 
-## Stack (high level)
+○ Infrastructure product
+○ No public code dump
+○ Operator-controlled
+
+### ◆ Who it’s for
+
+▸ Team / ops file sharing
+
+### ◆ Stack (high level)
 
 `Drive service` · `Docker`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
